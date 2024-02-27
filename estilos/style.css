@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+:root {
+    --fuente-principal: url('.woff2'), url('ruta/a/tu/fuente.woff'), Arial, sans-serif;
+  
+    --fuente-secundaria: url('ruta/a/otra/fuente.woff2'), url('ruta/a/otra/fuente.woff'), 'Times New Roman', serif;
+    
+        
+        --colores-amarillo-fuerte: #fdff00;
+        --colores-azul: #505c7c;
+       
+       
+  }
+
+.container{
+    width:120rem;
+height: 67.5rem;
+background-color: var(--colores-azul);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.webDesarrollo{
+width: 18.625rem;
+height: 6.125rem;
+background-color: var(--colores-amarillo-fuerte);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: .625rem;
+box-shadow:0 4px 0 0 black;
+font-family: var(--fuente-principal);
+
+
+}
+
