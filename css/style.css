@@ -25,7 +25,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.webDesarrollo{
+main{
 width: 18.625rem;
 height: 6.125rem;
 background-color: var(--colores-amarillo-fuerte);
